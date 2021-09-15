@@ -3,7 +3,7 @@ x=3
 y=4.4
 z="shalom"
 c= "h"
-print(z+x)
+print(x+y)
 
 print("Hello Class")
 print("Very Nice")
