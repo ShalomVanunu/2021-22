@@ -7,5 +7,7 @@ z="shalom"
 print(type(z))
 c= "h"
 print(type(c))
+bool = True
+print(type(bool))
 
-print(x+y)
+print("x+y=",(x+y))
