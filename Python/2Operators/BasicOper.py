@@ -1,10 +1,9 @@
-
-print(3+3)
-
-x=3
-y=2
-
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
+a=6
+b=4
+print('Addition : ', a + b)
+print('Subtraction : ', a - b)
+print('Multiplication : ', a * b)
+print('Division (float) : ', a / b)
+print('Division (floor) : ', a // b)
+print('Modulus : ', a % b)
+print('Exponent : ', a ** b)

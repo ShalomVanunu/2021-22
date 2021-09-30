@@ -1,11 +1,10 @@
+a=6
+b=2
+print('Division (floor) : ', a // b)
+print('Modulus : ', a % b)
+print('Exponent : ', a ** b)
 
-x=3
-y=2
-
-print(x**y) ## x^y
-print(x%y) ##  x modulo y
-
-num = x
+num = a
 num = num +10
 print(num)
 
