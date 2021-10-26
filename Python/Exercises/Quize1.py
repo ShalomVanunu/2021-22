@@ -1,4 +1,7 @@
 
+print(45/6)
+
+
 length = float(input("Enter Lenght:"))
 kind = input('type f or m')
 if kind == "f" :
