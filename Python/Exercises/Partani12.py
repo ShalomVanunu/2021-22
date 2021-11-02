@@ -1,6 +1,6 @@
 lst1 = [85,60,40,50,100,90,40]
 
-for score in lst1:
+for score in lst1 :
     if score <80:
         indx = lst1.index(score)
         lst1[indx]= score+5
