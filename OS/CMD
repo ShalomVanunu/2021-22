@@ -18,3 +18,7 @@ CD - Change Directory
 COPY - COPY SOURCE DESTANTION
 Del  - delete file
 mkdir - make Directory
+
+echo "my name is shalom" >"shalom.txt"
+
+Type - show content of file
