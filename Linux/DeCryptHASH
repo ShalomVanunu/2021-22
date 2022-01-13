@@ -1,0 +1,9 @@
+
+cd /usr/share/wordlists
+
+gzip -d rockyou.txt.gz  #unzip the file
+
+# De Hash Passwd user Password
+
+jhon --format=crypt <Hash> --wordlist=/usr/share/wordlists/rockyou.txt
+
