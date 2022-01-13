@@ -7,3 +7,4 @@ gzip -d rockyou.txt.gz  #unzip the file
 
 jhon --format=crypt <Hash> --wordlist=/usr/share/wordlists/rockyou.txt
 
+john --show <Hash>
