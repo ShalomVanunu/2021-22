@@ -1,8 +1,8 @@
 
 import socket
 
-PORT = 5050
-SERVER = "172.20.133.160"
+PORT = 4444
+SERVER = "172.20.129.27"
 
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
