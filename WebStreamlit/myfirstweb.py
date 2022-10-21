@@ -7,6 +7,8 @@ st.header("Cyber class")
 st.subheader(" link to Streamlit Learmung https://streamlit-review.onrender.com/")
 # Open Terminal
 # c:> streamlit run <python file .py>
+data_file = Image.open('sunrise.jpeg')
+st.image(data_file)
 
 name = st.text_input("username")
 button_click = st.button("click me")
@@ -17,5 +19,3 @@ if button_click:
     else:
         st.error("bad user")
 
-#data_file = Image.open('Cyber.png')
-#st.image(data_file)
