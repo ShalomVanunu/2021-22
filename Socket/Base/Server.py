@@ -1,7 +1,7 @@
 import socket
 
 PORT = 4444 #above 1024
-IP = "172.20.132.172"
+IP = "172.20.129.27"
 
 
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM) # DGARM - UDP || STREAM -TCP
