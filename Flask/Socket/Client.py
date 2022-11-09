@@ -1,19 +1,15 @@
 import socket
 
-
-
 def socket_init():
     global client
     PORT = 4444
-    IP = "172.20.129.27"
+    IP = "192.168.1.128"
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((IP,PORT))
     return client
 
 def send_data(data):
-    print(data)
-    print(client)
     client.send(data.encode())
 
 def recv():
