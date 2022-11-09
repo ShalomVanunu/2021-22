@@ -9,8 +9,8 @@ def main():
         username = request.form["username"]
         password = request.form["password"]
         if username == 'shalomv' and password=='Password1':
-            #return redirect(url_for('success'))
-            return render_template("Success.html")
+            return redirect(url_for('success'))
+
         else:
             return render_template("Login.html")
 
@@ -20,7 +20,9 @@ def main():
 
 @app.route("/success")
 def success():
-    return "<h1> Login Success </h1>"
+    name = "h@ck$er"
+    listnames= ['h@ck$er1','h@ck$er2','h@ck$er3','h@ck$er4' ]
+    return render_template("Success.html", content=name, listcontent=listnames )
 
 
 
