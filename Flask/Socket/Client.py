@@ -3,7 +3,7 @@ import socket
 def socket_init():
     global client
     PORT = 4444
-    IP = "192.168.1.128"
+    IP = "172.20.129.27"
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((IP,PORT))

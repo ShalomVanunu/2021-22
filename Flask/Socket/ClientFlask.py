@@ -17,7 +17,9 @@ def main():
     if request.method =="POST":
         data = request.form["data"]
         Client.send_data(data)
-        return render_template("Chat.html")
+        msg = Client.recv()
+        print(msg)
+        return render_template("Chat.html", content=msg)
     else:
         return render_template("Chat.html")
 
@@ -26,4 +28,4 @@ def main():
 
 
 if __name__ == "__main__":
-    app.run(port =80, host="192.168.1.128")
+    app.run(port =80, host="172.20.129.27")
